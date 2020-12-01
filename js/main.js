@@ -1,6 +1,7 @@
-import {teskstoTikrinimas} from './componets/tekstoTikrinimas.js';
+import {paragraf} from './componets/paragraf.js';
 import {tekstas} from './data/tekstas.js';
 
-const ats = teskstoTikrinimas(tekstas);
+const ats = paragraf(tekstas);
+
 
 console.log(ats);
